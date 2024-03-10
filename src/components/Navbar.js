@@ -7,7 +7,7 @@ import {MdFavorite, MdHelp} from 'react-icons/md'
 
 const Navbar = () => {
 const [nav, setNav] = useState(false)
-const [searchTerm, setSearchTerm] = useState('');
+
 
 
 
@@ -17,6 +17,7 @@ const [searchTerm, setSearchTerm] = useState('');
       <div className='flex items-center'>
         <div onClick={()=> setNav(!nav)} className='cursor-pointer'>
           <AiOutlineMenu size={30} />
+
         </div>
         <h1 className='text-2xl sm:text-3xl lg:text-4xl px-2'>
           Best <span className='font-bold'>Eats</span>
@@ -34,7 +35,7 @@ const [searchTerm, setSearchTerm] = useState('');
           className='bg-transparent p-2 w-full focus:outline-none'
           type='text'
           placeholder='Search foods'
-          onChange={(e) => setSearchTerm(e.target.value)}
+       
       
         />
       </div>
