@@ -68,3 +68,23 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+# Book Finder App
+
+## Description
+A simple React app for searching books using the Open Library API. Alex, a college student, can search books by title and view cover, author, and publish year.
+
+## Features
+- Search books by title
+- Display book cover, title, author, publish year
+- Responsive design
+- Error handling for network issues
+
+## Deployment
+You can deploy this app for free on:
+- [CodeSandbox](https://codesandbox.io/)
+- [StackBlitz](https://stackblitz.com/)
+
+## API
+Open Library Search API: `https://openlibrary.org/search.json?title={bookTitle}`
